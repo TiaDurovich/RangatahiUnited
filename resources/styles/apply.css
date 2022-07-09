@@ -10,6 +10,10 @@
    position: relative;
    height: 40vw; 
    width: 100vw;
+
+   padding-top: 7vw;
+
+   background-color: #FFFFFF;
  }
  
  .applyInfoContainer {
@@ -20,16 +24,6 @@
    height: 15vw;
    width: 40vw;
   }
- 
- .applyInfo h2 {
-   font-family: 'Roboto';
-   font-style: normal;
-   font-size: 1.8vw;
-   
-   text-align: center;
-
-   color: #ED99A0;
- }
 
  .applyInfo h1 {
   font-family: 'Roboto';
@@ -37,26 +31,11 @@
   font-size: 3vw;
   
   text-align: center;
+  margin-top: -10vw;
 
-  color: #167D7F;
+  color: #E29578;
 }
 
- #send {
-   display: flex;
-   flex-flow: row;
-   align-items: center;
-   justify-content: center;
-   height: 3vw;
- }
-
- #project {
-  display: flex;
-  flex-flow: row;
-  align-items: center;
-  justify-content: center;
-  height: 3vw;
- }
- 
  .applyInfo p {
   display: flex;
   flex-flow: row;
@@ -64,10 +43,40 @@
    
    font-family: 'Roboto';
    font-style: normal;
-   font-size: 1vw;
-   line-height: 2vw;
+   font-size: 1.2vw;
    text-align: center;
    
-   color: #1A5D5F;
+   color: #006D77;
  }
+
+ .personalInfo {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+
+  width: 100%;
+  height: 30vw;
+ }
+
+  .personalInfo h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 1.5vw;
+    
+    text-align: left;
+    margin-bottom: 0.2vw;
+  
+    color: #006D77;
+ }
+
+ #formInfo {
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+ }
+
+
+
+
  

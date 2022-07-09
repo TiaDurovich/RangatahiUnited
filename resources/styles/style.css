@@ -1,5 +1,29 @@
 
-/* OUR VISION SECTION*/
+.banner {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 3.5vw;
+
+  background-color: #E29578;
+}
+
+.banner p {
+  font-family: 'Roboto';
+  font-size: 1.5vw;
+  letter-spacing: 0.8px;
+   
+  text-align: center;
+  width: 100%;
+
+  color: #FFFFFF;
+}
+
+
+/* OUR MISSION SECTION*/
 
 .ourVision {
   display: flex;
@@ -8,9 +32,10 @@
   justify-content: center;
  
   position: relative;
-  height: 46vw; 
-  width: 100vw;
- 
+  height: 25.5vw; 
+  width: 100%;
+  margin-top: 12vw;
+
   background-color: #FFFFFF;
  }
  
@@ -19,6 +44,7 @@
    flex-flow: column;
    width: 90%;
    padding: 8%;
+   background-color: #FFFFFF;
  }
  
  .ourVision h2 {
@@ -29,7 +55,7 @@
    text-align: left;
    width: 100%;
    
-   color: #167D7F;
+   color: #006D77;
  }
  
  .ourVision p {
@@ -42,143 +68,34 @@
  font-size: 1.4vw;
  line-height: 2.8vw;
  
- color: #1A5D5F;
- }
- 
- .ourVisionPeople {
-   display: flex;
-   flex-flow: row;
-   justify-content: bottom;
-   align-items: end;
-   width: 80%;
-   height: 24vw;
- }
- 
- #sittingPerson{
- width: 40%;
- height: 60%;
- }
- 
- #floatingPerson {
- width: 40%;
- height: 60%;
- padding-right: 10vw;
+ color: #006D77;
  }
  
  
- /*YOUTH PROJECTS SECTION*/
- .youthProjects {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
  
-  
-   width: 100vw;
-   position: relative;
-   height: 55.5vw; 
-  
-   background-color: #98D7C2;
- }
- 
- .youthProjectsContainer {
-   display: flex;
-   flex-flow: column;
-   width: 90%;
-   align-items: center;
-   justify-content: space-evenly;
- }
- 
- .youthProjects h1 {
-   display: flex;
-   flex-flow: row;
-   align-items: center;
- 
-   font-family: 'Roboto';
-   font-style: normal;
-   font-size: 4.2vw;
- 
-   color: white;
- }
- 
- .youthProjectsProfiles {
-   display: flex;
-   flex-flow: row;
-   justify-content: center;
-   width: 75%;
-   padding-top: 5%;
-   padding-bottom: 5%;
- }
- 
- .youthProjectsProfiles img {
-   width: 30%;
-   height: 30%;
-   padding-left: 2%;
-   padding-right: 2%;
- }
- 
- .youthProjectsButton {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
-   position: relative;
-  
-   width: 8vw;
-   height: 3.5vw; 
-   border-radius: 10px;
- 
-   background-color: white;
- }
- 
- .youthProjectsButton h4 {
-   font-size: 1.5vw;
- }
- 
- #apply{
-   display: flex;
-   flex-flow: row;
-   align-items: center;
- 
-   font-family: 'Roboto';
-   font-style: normal;
-   font-size: 1rem;
-   text-decoration-line: none;
-   text-align: center;
-   height: 100%;
- 
-   color: #1A5D5F;
- }
-
- .youthProjectsButton:hover {
-  background-color: #167D7F;
-}
-
-  .youthProjectsButton h4:hover {
-  color: #FFFFFF;
-}
- 
- 
- 
- 
- /* JOIN THE POOL PARTY SECTION */
+ /* FURTHER INFO SECTION */
  
  .joinThePoolParty {
-   display: flex;
+  display: flex;
   flex-flow: row;
   align-items: center;
   justify-content: center;
  
   width: 100vw;
   position: relative;
-  height: 55.5vw; 
+  height: 40vw; 
+  background-color: #EDF6F9;
+
+  padding-bottom: 10vw;
+
  }
  
  .joinThePoolPartyContainer {
    display: flex;
    flex-flow: column;
-   width: 50%;
-   padding: 0%;
+   width: 90%;
+   align-items: center;
+    justify-content: space-evenly;
  }
  
  .joinThePoolParty h1 {
@@ -191,22 +108,68 @@
    font-style: normal;
    font-size: 4.2vw;
      
-   color: #167D7F;
+   color: #E29578;
  }
+
+  #infoContainers {
+   display: flex;
+   flex-flow: row;
+   align-items: center;
+   width: 95%;
+   padding-top: 4vw;
+  }
+
+  .joinThePoolParty h2 {
+    font-family: 'Roboto';
+    font-size: 2vw;  
+    align-self: center;
+      
+    color: #006D77;
+  }
+
+  #infoContainerSeperate {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 30%;
+    height: 30%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+
  
  .joinThePoolParty p {
    display: flex;
    flex-flow: row;
    text-align: center;
-   padding-top: 15%;
+   width: 90%;
  
    font-family: 'Roboto';
    font-style: normal;
    font-size: 1.4vw;
-   line-height: 2.8vw;
-   margin-top: -2.4vw;
-   margin-bottom: 3vw;
- 
-     
+   line-height: 2vw;
+   
    color: #1A5D5F;
  }
+
+ .joinThePoolParty a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+ 
+  width: 8vw;
+  height: 3.5vw; 
+  border-radius: 10px;
+
+  background-color: white;
+}
+
+.joinThePoolParty h4 {
+  font-size: 1vw;
+  font-family: 'Roboto';
+  color: #1A5D5F;
+}

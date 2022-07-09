@@ -20,7 +20,7 @@ body {
     height: 35vw;
   
     background-color: #167D7F;
-    background-image: url(../lowOpacityPoYWater.png);
+    background-image: url(../bannerDesign.png);
     background-size: cover;
   }
 
@@ -96,7 +96,7 @@ body {
     font-size: 1.2vw;
     line-height: 17px;
 
-    color: #FFFFFF;
+    color: #006D77;
     text-decoration-line: underline;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
   }

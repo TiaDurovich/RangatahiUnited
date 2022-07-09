@@ -1,24 +1,165 @@
-/* COMING SOON */
-
-.container {
+/* RESOURCE ONE INFO*/
+.resourceOne {
   display: flex;
   flex-flow: row;
   align-items: center;
   justify-content: center;
 
   position: relative;
-  height: 40vw; 
   width: 100vw;
-}
+  height: 30vw; 
+    
+  background-color: #FFFFFF;
+ }
+ 
+ .resourceOneContainer {
+   display: flex;
+   flex-flow: column;
+   align-items: right;
+   width: 90%;
+ }
+ 
 
-h1 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-size: 3vw;
-    line-height: 3vw;
-    margin-top: -10vw;
+ .resourceOneContainer h1 {
+  font-family: 'Roboto';
+  color: #006D77;
+  font-size: 2.5vw;
+ }
+ 
+ .resourceOneContainer p {     
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1.5vw;
+   width: 50vw;
+   line-height: 2.5vw;
+   text-align: left;
+   margin-top: 25px;
+   
+   color: #006D77;
+ }
+
+
+ /* RESOURCE TWO INFO*/
+.resourceTwo {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  width: 100vw;
+  height: 30vw; 
     
-    text-align: center;
+  background-color: #EDF6F9;
+ }
+ 
+ .resourceTwoContainer {
+   display: flex;
+   flex-flow: column;
+   align-items: end;
+
+   width: 90%;
+ }
+ 
+ .resourceTwoContainer h1 {
+  font-family: 'Roboto';
+  color: #006D77;
+  font-size: 2.5vw;
+ }
+ 
+ .resourceTwoContainer p {     
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1.5vw;
+   width: 50vw;
+   line-height: 2.5vw;
+   text-align: right;
+   margin-top: 25px;
+   
+   color: #006D77;
+ }
+   
+ /* RESOURCE THREE INFO*/
+.resourceThree {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  width: 100vw;
+  height: 30vw; 
     
-    color: #167D7F;
-  }
+  background-color: #83C5BE;
+ }
+ 
+ .resourceThreeContainer {
+   display: flex;
+   flex-flow: column;
+   align-items: right;
+   width: 90%;
+ }
+ 
+
+ .resourceThreeContainer h1 {
+  font-family: 'Roboto';
+  color: #EDF6F9;
+  font-size: 2.5vw;
+ }
+ 
+ .resourceThreeContainer p {     
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1.5vw;
+   width: 50vw;
+   line-height: 2.5vw;
+   text-align: left;
+   margin-top: 25px;
+   
+   color: #EDF6F9;
+ }
+
+ /* HELPFUL LINKS*/
+ .resourceFour {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  width: 100vw;
+  height: 30vw; 
+    
+  background-color: #006D77;
+ }
+ 
+ .resourceFourContainer {
+   display: flex;
+   flex-flow: column;
+   align-items: end;
+
+   width: 90%;
+ }
+ 
+ .resourceFourContainer h1 {
+  font-family: 'Roboto';
+  color: #EDF6F9;
+  font-size: 2.5vw;
+ }
+ 
+ .resourceFourContainer a {     
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1.3vw;
+   width: 50vw;
+   line-height: 2.5vw;
+   text-align: right;
+   margin-top: 25px;
+   line-height: 1vw;
+   
+   color: #EDF6F9;
+ }
