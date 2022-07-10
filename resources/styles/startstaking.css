@@ -1,3 +1,28 @@
+
+.banner {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 3.5vw;
+
+  background-color: #E29578;
+}
+
+.banner p {
+  font-family: 'Lora';
+  font-size: 1.2vw;
+  letter-spacing: 0.8px;
+   
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+
+  color: #006D77;
+}
+
 /* RESOURCE ONE INFO*/
 .resourceOne {
   display: flex;
@@ -21,13 +46,13 @@
  
 
  .resourceOneContainer h1 {
-  font-family: 'Roboto';
+  font-family: 'Lora';
   color: #006D77;
   font-size: 2.5vw;
  }
  
  .resourceOneContainer p {     
-   font-family: 'Roboto';
+   font-family: 'Lora';
    font-style: normal;
    font-weight: 400;
    font-size: 1.5vw;
@@ -63,16 +88,16 @@
  }
  
  .resourceTwoContainer h1 {
-  font-family: 'Roboto';
+  font-family: 'Lora';
   color: #006D77;
   font-size: 2.5vw;
  }
  
  .resourceTwoContainer p {     
-   font-family: 'Roboto';
+   font-family: 'Lora';
    font-style: normal;
    font-weight: 400;
-   font-size: 1.5vw;
+   font-size: 1.2vw;
    width: 50vw;
    line-height: 2.5vw;
    text-align: right;
@@ -104,16 +129,16 @@
  
 
  .resourceThreeContainer h1 {
-  font-family: 'Roboto';
+  font-family: 'Lora';
   color: #EDF6F9;
   font-size: 2.5vw;
  }
  
- .resourceThreeContainer p {     
-   font-family: 'Roboto';
+ .resourceThreeContainer ol {     
+   font-family: 'Lora';
    font-style: normal;
    font-weight: 400;
-   font-size: 1.5vw;
+   font-size: 1.3vw;
    width: 50vw;
    line-height: 2.5vw;
    text-align: left;
@@ -145,13 +170,13 @@
  }
  
  .resourceFourContainer h1 {
-  font-family: 'Roboto';
+  font-family: 'Lora';
   color: #EDF6F9;
   font-size: 2.5vw;
  }
  
  .resourceFourContainer a {     
-   font-family: 'Roboto';
+   font-family: 'Lora';
    font-style: normal;
    font-weight: 400;
    font-size: 1.3vw;

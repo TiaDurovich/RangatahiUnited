@@ -7,6 +7,30 @@ body {
   margin: 0;
 }
 
+.banner {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 3.5vw;
+
+  background-color: #E29578;
+}
+
+.banner p {
+  font-family: 'Lora';
+  font-size: 1.2vw;
+  letter-spacing: 0.8px;
+   
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+
+  color: #006D77;
+}
+
 /* ABOUTUS INFO*/
 .aboutusInfo {
     display: flex;
@@ -38,7 +62,7 @@ body {
     width: 100%;
     margin-bottom: 3vw;
 
-    font-family: 'Roboto';
+    font-family: 'Lora';
    }
 
    #about {
@@ -54,7 +78,7 @@ body {
    }
    
    .aboutusInfo p {     
-     font-family: 'Roboto';
+     font-family: 'Lora';
      font-style: normal;
      font-weight: 400;
      font-size: 1.5vw;
@@ -89,13 +113,13 @@ body {
  
 
  .confidentialityInfoContainer h1 {
-  font-family: 'Roboto';
+  font-family: 'Lora';
   color: #006D77;
   font-size: 2.5vw;
  }
  
  .confidentialityInfoContainer p {     
-   font-family: 'Roboto';
+   font-family: 'Lora';
    font-style: normal;
    font-weight: 400;
    font-size: 1.5vw;
@@ -131,13 +155,13 @@ body {
  }
  
  .sustainabilityInfoContainer h1 {
-  font-family: 'Roboto';
+  font-family: 'Lora';
   color: #EDF6F9;
   font-size: 2.5vw;
  }
  
  .sustainabilityInfoContainer p {     
-   font-family: 'Roboto';
+   font-family: 'Lora';
    font-style: normal;
    font-weight: 400;
    font-size: 1.5vw;
@@ -172,13 +196,13 @@ body {
  
 
  .genderInclusivityInfoContainer h1 {
-  font-family: 'Roboto';
+  font-family: 'Lora';
   color: #006D77;
   font-size: 2.5vw;
  }
  
  .genderInclusivityInfoContainer p {     
-   font-family: 'Roboto';
+   font-family: 'Lora';
    font-style: normal;
    font-weight: 400;
    font-size: 1.5vw;

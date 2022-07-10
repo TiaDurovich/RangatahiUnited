@@ -5,7 +5,7 @@ html {
 }
 
 #navLink:hover {
-  color: #006D77;
+  color: #83C5BE;
 }
 
 .navbar { 
@@ -19,12 +19,12 @@ html {
 
    justify-content: space-between;
    
-   background-color: #FFDDD2;
+   background-color: #006D77;
   }
 
  .navbar img {  
-  width: 35%;
-  height: 95%;
+  width: 15%;
+  height: 75%;
   padding-left: 7%;
  }
 
@@ -42,7 +42,7 @@ html {
    justify-content: space-evenly;
    white-space: nowrap;
 
-   font-family: 'Roboto';
+   font-family: 'Lora';
    font-style: normal;
    font-size: 1.2vw;
    line-height: 38px;
@@ -51,7 +51,7 @@ html {
 
    text-align: center;
 
-   color: #83C5BE;
+   color: #EDF6F9;
   }
 
 
